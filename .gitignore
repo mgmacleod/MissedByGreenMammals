@@ -30,3 +30,4 @@ replay_pid*
 .classpath
 .project
 /${bitwig.extension.directory}
+.vscode

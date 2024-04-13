@@ -1,1 +1,0 @@
-# 20: OT scenes default to 1 on initialization
