@@ -14,7 +14,7 @@ public class OctatrackExtensionDefinition extends ControllerExtensionDefinition 
 
 	@Override
 	public String getHardwareVendor() {
-		return "Missing Green Mammals";
+		return "Elektron";
 	}
 
 	@Override
@@ -54,7 +54,7 @@ public class OctatrackExtensionDefinition extends ControllerExtensionDefinition 
 
 	@Override
 	public String getVersion() {
-		return "0.1";
+		return "1.0";
 	}
 
 	@Override
