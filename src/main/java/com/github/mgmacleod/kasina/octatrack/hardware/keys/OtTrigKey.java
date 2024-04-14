@@ -1,9 +1,9 @@
-package com.missinggreenmammals.kasina.octatrack.hardware.keys;
+package com.github.mgmacleod.kasina.octatrack.hardware.keys;
 
 import com.bitwig.extension.controller.api.ControllerHost;
 import com.bitwig.extension.controller.api.HardwareBindable;
 import com.bitwig.extension.controller.api.HardwareSurface;
-import com.missinggreenmammals.kasina.octatrack.hardware.Shiftable;
+import com.github.mgmacleod.kasina.octatrack.hardware.Shiftable;
 
 import lombok.Getter;
 import lombok.Setter;

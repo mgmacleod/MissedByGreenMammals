@@ -1,4 +1,4 @@
-package com.missinggreenmammals.kasina.octatrack.hardware.keys;
+package com.github.mgmacleod.kasina.octatrack.hardware.keys;
 
 import java.util.LinkedList;
 import java.util.List;
@@ -6,8 +6,8 @@ import java.util.List;
 import com.bitwig.extension.controller.api.ControllerHost;
 import com.bitwig.extension.controller.api.HardwareBindable;
 import com.bitwig.extension.controller.api.HardwareSurface;
-import com.missinggreenmammals.kasina.octatrack.hardware.OtHardwareElement;
-import com.missinggreenmammals.kasina.octatrack.hardware.Shiftable;
+import com.github.mgmacleod.kasina.octatrack.hardware.OtHardwareElement;
+import com.github.mgmacleod.kasina.octatrack.hardware.Shiftable;
 
 /**
  * Represents the chromatic keyboard of the Octatrack with support for shift functions.

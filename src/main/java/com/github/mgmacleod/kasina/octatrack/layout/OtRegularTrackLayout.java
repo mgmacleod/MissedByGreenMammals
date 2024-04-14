@@ -1,4 +1,4 @@
-package com.missinggreenmammals.kasina.octatrack.layout;
+package com.github.mgmacleod.kasina.octatrack.layout;
 
 import java.util.concurrent.atomic.AtomicBoolean;
 
@@ -10,7 +10,7 @@ import com.bitwig.extension.controller.api.HardwareBindable;
 import com.bitwig.extension.controller.api.SendBank;
 import com.bitwig.extension.controller.api.Track;
 import com.bitwig.extension.controller.api.TrackBank;
-import com.missinggreenmammals.kasina.octatrack.hardware.OtMidiHardwareControls;
+import com.github.mgmacleod.kasina.octatrack.hardware.OtMidiHardwareControls;
 
 /**
  * An {@link OtDefaultTrackLayout} to represent a regular track in Bitwig (i.e.,

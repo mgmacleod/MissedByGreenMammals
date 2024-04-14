@@ -1,4 +1,4 @@
-package com.missinggreenmammals.kasina.octatrack.hardware;
+package com.github.mgmacleod.kasina.octatrack.hardware;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;

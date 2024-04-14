@@ -1,4 +1,4 @@
-package com.missinggreenmammals.kasina.octatrack;
+package com.github.mgmacleod.kasina.octatrack;
 
 import java.util.UUID;
 
@@ -14,7 +14,7 @@ public class OctatrackExtensionDefinition extends ControllerExtensionDefinition 
 
 	@Override
 	public String getHardwareVendor() {
-		return "Missing Green Mammals";
+		return "Elektron";
 	}
 
 	@Override

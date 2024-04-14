@@ -1,11 +1,11 @@
-package com.missinggreenmammals.kasina.octatrack.layout;
+package com.github.mgmacleod.kasina.octatrack.layout;
 
 import com.bitwig.extension.controller.api.ControllerHost;
 import com.bitwig.extension.controller.api.CursorRemoteControlsPage;
 import com.bitwig.extension.controller.api.CursorTrack;
 import com.bitwig.extension.controller.api.Track;
 import com.bitwig.extension.controller.api.TrackBank;
-import com.missinggreenmammals.kasina.octatrack.hardware.OtMidiHardwareControls;
+import com.github.mgmacleod.kasina.octatrack.hardware.OtMidiHardwareControls;
 
 /**
  * An {@link OtDefaultTrackLayout} to represent the master track in Bitwig.
