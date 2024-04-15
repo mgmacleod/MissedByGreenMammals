@@ -1,14 +1,34 @@
 # Kasina
 
 
-Extensions for Bitwig Studio that try to look deeply into what makes a piece of gear great and then bring something of that to the Bitwig world.
+Extensions for Bitwig Studio that try to look deeply into what makes a piece of gear great and then bring something of that to the Bitwig world. So far, the Elektron Octatrack is the only one that I've added to this project, but there are plans for more extensions in the future.
 
 
 ***NOTE: This is a personal project and very much a work in progress. I hope it might be useful to others, but the intention isn't to create a general purpose extension that meets everyone's needs. That said, comments and suggestions are welcome. Create a issue if you have an idea or run into an problem.*** 
 
-## Download
+## Compatibility 
 
-You can download the latest version from the [Releases section](https://github.com/mgmacleod/Kasina/releases).
+- Bitwig Studio 5.0+ 
+- Should work anywhere Bitwig runs
+  - At one time or another, I have tested it on Windows, MacOS, and Linux 
+  - I currently develop and use it on the Mac
+
+## Installation
+
+1. Download the latest version from the [Releases section](https://github.com/mgmacleod/Kasina/releases) of this repository and unzip it somewhere on your computer. You'll find the following inside:
+   1. `accessories` folder
+      1. basic template projects for Bitwig and the Octatrack that you can use to get started
+   2. `Kasina.bwextension` file
+   3. `LICENCE` file 
+2. [Install](https://www.bitwig.com/support/technical_support/how-do-i-add-a-controller-extension-or-script-17/) the `Kasina.bwextension` file 
+   1. Basically, either copy it into your extensions folder or (apparently) drag-and-drop it onto the Bitwig Studio window
+3. Configure the Octatrack controller in Bitwig
+   1. Open Bitwig and go to Settings > Controllers 
+   2. Click '+ Add Controller'
+      1. Hardware Vendor: select `Elektron`
+      2. Product: select `Octatrack`
+   3. Use the dropdown menus to select your MIDI input and output ports for the Octatrack
+
 
 # Devices
 
@@ -16,7 +36,7 @@ You can download the latest version from the [Releases section](https://github.c
 
 ![Alt text](/images/ot-layout.png?raw=true "Octatrack Layout")
 
-This extension uses the MIDI side of the Octatrack to turn it into a powerful controller for Bitwig Studio. It provides most the basic functionality you'd expect as well as a twist or two thrown in for good measure. Set the scene to crossfade into madness! :)
+This extension uses the MIDI side of the Octatrack to turn it into a powerful controller for Bitwig Studio. It provides most the basic functionality you'd expect from a MIDI controller, but also adds some extra features to integrate with Bitwig Studio.
 
 
 ### Features
@@ -43,16 +63,11 @@ This extension uses the MIDI side of the Octatrack to turn it into a powerful co
     - in device mode, an additional set of trig keys scroll through the devices on the track
 - Advanced features
   - OT scenes integration
-    - This requires a few hacks to make it work, but they are well worth the potential offered by the **integration of the Octatrack's scenes into Bitwig's modulation system**. With this extension, you can use modulators in bitwig to assign parameters from native and plugin devices to the scenes of the Octatrack!
+    - Optional integration of the Octatrack's scenes into Bitwig's modulation system
+      - Use modulators in Bitwig to assign parameters from native and plugin devices to the scenes of the Octatrack
+      - This leverages the project-level modulators of Bitwig 5 and their ability to accept a dedicated stream of MIDI data from the OT crossfader and scene keys
+      - 
 
 
-More complete documentation in the works and will be available in a [separate repo](https://github.com/mgmacleod/Kasina-Documentation).
+https://www.bitwig.com/support/technical_support/how-do-i-add-a-controller-extension-or-script-17/
 
-## Other devices and possible experimental subjects (not yet started)
-- Korg Kaoss Pad KP3+ (MIDI side)
-- Novation LaunchPad Pro MKI
-- Novation LaunchControl XL
-- Ableton Push 2
-- NI Maschine MK3
-- Arturia Beatstep Pro
-- Keith McMillen SoftStep 2
